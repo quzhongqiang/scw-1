@@ -1,0 +1,57 @@
+2020-02-21 10:16:13.515  INFO 17024 --- [main] wyg.scw.scwproject.Mytest                : No active profile set, falling back to default profiles: default
+2020-02-21 10:16:14.125  INFO 17024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-21 10:16:14.128  INFO 17024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-21 10:16:14.155  INFO 17024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-02-21 10:16:14.367  WARN 17024 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[wyg.scw.scwproject.mapper]' package. Please check your configuration.
+2020-02-21 10:16:14.533  INFO 17024 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d531a36-f3a8-3f36-81c9-af73076f972b
+2020-02-21 10:16:14.716  INFO 17024 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73b73ca0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:16:14.997  INFO 17024 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8fd13f9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:16:15.497  WARN 17024 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:16:15.498  INFO 17024 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:16:15.509  WARN 17024 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:16:15.511  INFO 17024 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:16:16.370  INFO 17024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:16:18.923  INFO 17024 --- [main] wyg.scw.scwproject.Mytest                : Started Mytest in 7.6 seconds (JVM running for 9.829)
+2020-02-21 10:16:20.491  INFO 17024 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-02-21 10:16:20.496  INFO 17024 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USE with eureka with status DOWN
+2020-02-21 10:16:20.521  INFO 17024 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:16:20.544  WARN 17024 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:16:20.545  INFO 17024 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:25:06.282  INFO 14700 --- [main] wyg.scw.scwproject.Osstest               : No active profile set, falling back to default profiles: default
+2020-02-21 10:25:06.974  INFO 14700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-21 10:25:06.981  INFO 14700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-21 10:25:07.014  INFO 14700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2020-02-21 10:25:07.226  WARN 14700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[wyg.scw.scwproject.mapper]' package. Please check your configuration.
+2020-02-21 10:25:07.371  INFO 14700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d531a36-f3a8-3f36-81c9-af73076f972b
+2020-02-21 10:25:07.585  INFO 14700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a96229a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:25:07.897  INFO 14700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c57c2ca5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:25:08.278  WARN 14700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:25:08.279  INFO 14700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:25:08.286  WARN 14700 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:25:08.286  INFO 14700 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:25:08.988  INFO 14700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:25:11.708  INFO 14700 --- [main] wyg.scw.scwproject.Osstest               : Started Osstest in 7.293 seconds (JVM running for 8.844)
+2020-02-21 10:25:13.347  INFO 14700 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-02-21 10:25:13.351  INFO 14700 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USE with eureka with status DOWN
+2020-02-21 10:25:13.376  INFO 14700 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:25:13.398  WARN 14700 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:25:13.398  INFO 14700 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:26:23.516  INFO 15908 --- [main] wyg.scw.scwproject.Osstest               : No active profile set, falling back to default profiles: default
+2020-02-21 10:26:24.101  INFO 15908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-02-21 10:26:24.104  INFO 15908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-21 10:26:24.133  INFO 15908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2020-02-21 10:26:24.342  WARN 15908 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[wyg.scw.scwproject.mapper]' package. Please check your configuration.
+2020-02-21 10:26:24.481  INFO 15908 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d531a36-f3a8-3f36-81c9-af73076f972b
+2020-02-21 10:26:24.677  INFO 15908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a96229a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:26:24.956  INFO 15908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c57c2ca5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-21 10:26:25.333  WARN 15908 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:26:25.333  INFO 15908 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:26:25.341  WARN 15908 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:26:25.342  INFO 15908 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-02-21 10:26:26.018  INFO 15908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:26:28.516  INFO 15908 --- [main] wyg.scw.scwproject.Osstest               : Started Osstest in 6.806 seconds (JVM running for 8.376)
+2020-02-21 10:26:29.844  INFO 15908 --- [Thread-5] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-02-21 10:26:29.849  INFO 15908 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USE with eureka with status DOWN
+2020-02-21 10:26:29.888  INFO 15908 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-21 10:26:29.909  WARN 15908 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-02-21 10:26:29.910  INFO 15908 --- [Thread-5] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.

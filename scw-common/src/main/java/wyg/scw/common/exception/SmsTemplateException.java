@@ -1,0 +1,1 @@
+package wyg.scw.common.exception;public class SmsTemplateException extends RuntimeException {    public SmsTemplateException(String message){        super(message);    }}

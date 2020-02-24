@@ -1,0 +1,1 @@
+spring:  application:    name: scw-registerserver:  port: 7000eureka:  instance:    hostname: localhost  client:    fetch-registry: false # 是否去其他注册中心发现服务    register-with-eureka: false #是否将当前项目注册给注册中心    service-url:      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
